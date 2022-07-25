@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-chrome-extension": {
+    "triloginator": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -23,7 +23,7 @@
             "customWebpackConfig": {
               "path": "./custom-webpack.config.ts"
             },
-            "outputPath": "dist/angular-chrome-extension",
+            "outputPath": "dist/triloginator",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -84,10 +84,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "angular-chrome-extension:build:production"
+              "browserTarget": "triloginator:build:production"
             },
             "development": {
-              "browserTarget": "angular-chrome-extension:build:development"
+              "browserTarget": "triloginator:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -95,7 +95,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-chrome-extension:build"
+            "browserTarget": "triloginator:build"
           }
         },
         "test": {

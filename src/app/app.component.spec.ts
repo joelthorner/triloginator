@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'angular-chrome-extension'`, () => {
+  it(`should have as title 'triloginator'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('angular-chrome-extension');
+    expect(app.title).toEqual('triloginator');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('angular-chrome-extension app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('triloginator app is running!');
   });
 });

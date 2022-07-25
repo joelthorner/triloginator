@@ -2752,9 +2752,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"angular-chrome-extension@workspace:.":
+"triloginator@workspace:.":
   version: 0.0.0-use.local
-  resolution: "angular-chrome-extension@workspace:."
+  resolution: "triloginator@workspace:."
   dependencies:
     "@angular-builders/custom-webpack": ^14.0.0
     "@angular-devkit/build-angular": ^14.0.2
